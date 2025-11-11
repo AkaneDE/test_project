@@ -25,7 +25,7 @@ PGHOST = os.environ.get("PGHOST", "localhost")
 PGPORT = os.environ.get("PGPORT", "5433")
 PGDATABASE = os.environ.get("PGDATABASE", "employees_db")
 PGUSER = os.environ.get("PGUSER", "postgres")
-PGPASSWORD = os.environ.get("PGPASSWORD", "071018")
+PGPASSWORD = os.environ.get("PGPASSWORD", "")
 
 DSN = f"host={PGHOST} port={PGPORT} dbname={PGDATABASE} user={PGUSER} password={PGPASSWORD}"
 
